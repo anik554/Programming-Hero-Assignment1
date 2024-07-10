@@ -324,7 +324,7 @@
   border-radius: 16px;
   overflow: hidden;
   padding: 48px 64px;
-  background-image: url("/Images/handshake.jpg");
+  background-image: url("Images/handshake.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
