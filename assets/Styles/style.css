@@ -247,6 +247,11 @@
   background: rgba(255, 223, 0, 0.05);
   border-radius: 16px;
 }
+.taget-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .lanuage-header-card {
   font-size: 24px;
   font-weight: bolder;
