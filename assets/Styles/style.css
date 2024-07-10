@@ -333,7 +333,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
 
 .support-area {
@@ -376,3 +375,28 @@
   /* padding: 5px; */
 }
 /* Support Section End */
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 1215px;
+  height: 36px;
+  margin: 0 auto 32px auto;
+  justify-content: space-between;
+}
+.footer-image {
+  display: flex;
+}
+.footer-herer{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* .footer-image1 {
+} */
+.footer-image2 {
+  margin-left: 20px;
+}
+.footer-image3 {
+  margin-left: 20px;
+}
