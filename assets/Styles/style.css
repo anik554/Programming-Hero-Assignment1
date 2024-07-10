@@ -67,7 +67,6 @@
   height: 52px;
   margin: 24px auto 0 auto;
   text-align: center;
-  
 }
 .banner-button {
   background-color: #0d1321;
@@ -212,14 +211,13 @@
 /* My Inspiration Section End */
 
 /* My Current Target Section Start */
-#main-target-section{
-    margin-top: 100px;
+#main-target-section {
+  margin-top: 100px;
 }
 .target-title {
   font-size: 32px;
   font-weight: bolder;
   text-align: center;
-  
 }
 .target-description {
   font-size: 16px;
@@ -229,100 +227,152 @@
   margin: 24px auto 0 auto;
   color: rgba(13, 19, 33, 0.5);
 }
-.parent-language-card{
-    width: 1215px;
-    height: 300px;
-    display: flex;
-    margin: 0 auto;
-    /* justify-content: space-evenly; */
+.parent-language-card {
+  width: 1215px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  /* justify-content: space-evenly; */
 }
-.language-card1{
-    width: 364px;
-    height: auto;
-    padding: 40px 40px;
-    background: rgba(255, 76, 30, 0.05);
-    border-radius: 16px;
-    margin-right: 24px;
-    
+.language-card1 {
+  width: 364px;
+  height: auto;
+  padding: 40px 40px;
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  margin-right: 24px;
 }
-.language-card2{
-    width: 364px;
-    height: auto;
-    padding: 40px 40px;
-    background: rgba(0, 76, 232, 0.05);
-    margin-right: 24px;
-    border-radius: 16px;
-    
+.language-card2 {
+  width: 364px;
+  height: auto;
+  padding: 40px 40px;
+  background: rgba(0, 76, 232, 0.05);
+  margin-right: 24px;
+  border-radius: 16px;
 }
-.language-card3{
-    width: 364px;
-    height: auto;
-    padding: 40px 40px;
-    background: rgba(255, 223, 0, 0.05);
-    border-radius: 16px;
-    
+.language-card3 {
+  width: 364px;
+  height: auto;
+  padding: 40px 40px;
+  background: rgba(255, 223, 0, 0.05);
+  border-radius: 16px;
 }
-.lanuage-header-card{
-    font-size: 24px;
-    font-weight: bolder;
-    margin-top: 24px;
-    
+.lanuage-header-card {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 24px;
 }
-.lanuage-description-card{
-    font-size: 16px;
-    margin-top: 8px;
-    margin-bottom: 24px;
-    color: rgba(13, 19, 33, 0.5);
+.lanuage-description-card {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  color: rgba(13, 19, 33, 0.5);
 }
 
-.main-next-target{
-    width: 1215px;
-    height: auto;
-    margin: 0 auto;
+.main-next-target {
+  width: 1215px;
+  height: auto;
+  margin: 0 auto;
 }
-.framwork-card1{
-    display: flex;
-    padding: 40px 40px;
-    justify-content: space-around;
-    
-    border: 1px solid rgba(13, 19, 33, 0.30);
-    border-radius: 16px;
+.framwork-card1 {
+  display: flex;
+  padding: 40px 40px;
+  justify-content: space-around;
+
+  border: 1px solid rgba(13, 19, 33, 0.3);
+  border-radius: 16px;
 }
-.framwork-card2{
-    display: flex;
-    padding: 40px 40px;
-    justify-content: space-around;
-    
-    border: 0.2px solid rgba(13, 19, 33, 0.5);
-    border-radius: 16px;
+.framwork-card2 {
+  display: flex;
+  padding: 40px 40px;
+  justify-content: space-around;
+
+  border: 0.2px solid rgba(13, 19, 33, 0.5);
+  border-radius: 16px;
 }
-.framwork-card3{
-    display: flex;
-    padding: 40px 40px;
-    justify-content: space-around;
-    border: 0.5px solid rgba(13, 19, 33, 0.15);
-    border-radius: 16px;
+.framwork-card3 {
+  display: flex;
+  padding: 40px 40px;
+  justify-content: space-around;
+  border: 0.5px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
 }
-.target-others{
-    width: 80%;
+.target-others {
+  width: 80%;
 }
-.language-title{
-    font-size: 32px;
-    font-weight: bolder;
-    text-align: start;
+.language-title {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: start;
 }
-.language-description{
-    font-size: 16px;
-    text-align: start;
-    margin-bottom: 48px;
-    margin-top: 8px;
-    color: rgba(13, 19, 33, 0.5);
+.language-description {
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 48px;
+  margin-top: 8px;
+  color: rgba(13, 19, 33, 0.5);
 }
-.language-learmore{
-    font-size: 16px;
-    font-weight: bold;
-    text-align: start;
-    color: #0D1321;
-    
+.language-learmore {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+  color: #0d1321;
 }
 /* My Current Target Section End */
+
+/* Support Section Start */
+#main-support-section {
+  width: 1085px;
+  height: 314px;
+  position: relative;
+  margin: 41px auto;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 48px 64px;
+  background-image: url("/assets/Images/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.support-area {
+  width: 1040px;
+  height: 186px;
+  margin: 60px auto;
+}
+.support-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.support-description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 48px;
+  margin-top: 8px;
+  color: rgba(221, 223, 226, 0.5);
+}
+.support-input {
+  width: 548px;
+  height: 10px;
+  border-radius: 8px;
+  padding: 20px 19px;
+}
+.input-button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.support-button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d1321;
+  background: #ffffff;
+  width: 110px;
+  height: 55px;
+  border-radius: 8px;
+  /* padding: 5px; */
+}
+/* Support Section End */
