@@ -33,6 +33,11 @@
   background-color: white;
   border: 1px solid black;
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 /* Name and Button Section into Head End */
@@ -74,11 +79,14 @@
   width: 208px;
   height: 66px;
   margin: 32px auto 0 auto;
-  display: block;
+  display: flex;
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
   border: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
 }
 /* Banner Section into Main End */
 
