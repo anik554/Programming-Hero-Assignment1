@@ -1,0 +1,328 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Name and Button Section into Head Start */
+
+#head-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.name-title {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.download-resume {
+  width: 228px;
+  height: 58px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d1321;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Name and Button Section into Head End */
+/* Banner Section into Main Start */
+#main-banner-section {
+  width: 100%;
+  height: 652px;
+  margin-top: 47px;
+  background-image: url("../Images/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.banner-head-line {
+  font-size: 48px;
+  font-weight: bolder;
+  width: 998px;
+  height: 136px;
+  text-align: center;
+  margin: 32px auto 0 auto;
+}
+.banner-description {
+  font-size: 16px;
+  color: rgba(13, 19, 33, 1);
+  width: 852px;
+  height: 52px;
+  margin: 24px auto 0 auto;
+  text-align: center;
+  
+}
+.banner-button {
+  background-color: #0d1321;
+  color: #ffffff;
+  width: 208px;
+  height: 66px;
+  margin: 32px auto 0 auto;
+  display: block;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+/* Banner Section into Main End */
+
+/* Why Web Development Section Start */
+#main-webDevelopment-section {
+  max-width: 1140px;
+  height: 1220px;
+  /* background-color: rgb(217, 99, 99); */
+  margin: 74px auto 88px auto;
+  background: #f8f8f8;
+  padding: 57px 40px;
+  border-radius: 8px;
+}
+.title-description-div {
+  width: 946px;
+  height: 1235px;
+  margin: 0 auto;
+  /* color: rgba(13, 19, 33, 0.5); */
+}
+.webDevelopment-section-tilte {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.webDevelopment-section-description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: rgba(13, 19, 33, 0.5);
+  /* padding: 20px; */
+}
+.webDevelopment-card-item {
+  display: flex;
+  justify-content: space-between;
+  /* width: 946px;
+    height: 336px; */
+  padding: 48px;
+  /* background-color:  lightgray; */
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 50%,
+    rgb(225, 234, 238) 170%
+  );
+  border-radius: 5px;
+
+  /* background-color: aqua; */
+}
+/* .left-card-item{
+    padding: 48px;
+}
+.right-card-item{
+    padding: 48px;
+} */
+.webDevelopment-card-item .item-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  width: 390px;
+  height: 72px;
+}
+.webDevelopment-card-item .item-description {
+  font-size: 16px;
+  color: rgba(13, 19, 33, 0.8);
+  width: 468px;
+  height: 52px;
+  margin-bottom: 50px;
+  color: rgba(13, 19, 33, 0.5);
+}
+.webDevelopment-card-item .item-button {
+  width: 140px;
+  height: 48px;
+  /* padding: 20px 10px; */
+  color: #0d1321;
+  background-color: none;
+  font-size: 20;
+  font-weight: 600;
+  border: 1px solid black;
+}
+.webDevelopment-card-item .item-image {
+  width: 274.17px;
+  height: 240px;
+}
+
+/* Why Web Development Section End */
+
+/* My Inspiration Section Start */
+#main-inspiration {
+  width: 1225px;
+  height: 777px;
+  /* margin-top: 88px; */
+  /* background: rebeccapurple; */
+  margin: 88px auto 0 auto;
+  border-radius: 8px;
+}
+.inspiration-title {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  /* margin-bottom: 24px; */
+}
+.inspiration-description {
+  font-size: 16px;
+  text-align: center;
+  width: 852px;
+  height: 52px;
+  margin: 0 auto;
+  color: rgba(13, 19, 33, 0.5);
+}
+
+.Youtube-video {
+  width: 100%;
+  height: 550px;
+}
+.inspiration-video {
+  padding: 70px;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 50%,
+    rgb(225, 234, 238) 170%
+  );
+  margin: 0 auto 48px auto;
+  width: 1080px;
+  display: flex;
+  position: relative;
+  border-radius: 8px;
+}
+
+/* My Inspiration Section End */
+
+/* My Current Target Section Start */
+#main-target-section{
+    margin-top: 100px;
+}
+.target-title {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+.target-description {
+  font-size: 16px;
+  text-align: center;
+  width: 852px;
+  height: 52px;
+  margin: 24px auto 0 auto;
+  color: rgba(13, 19, 33, 0.5);
+}
+.parent-language-card{
+    width: 1215px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+}
+.language-card1{
+    width: 364px;
+    height: auto;
+    padding: 40px 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    margin-right: 24px;
+    
+}
+.language-card2{
+    width: 364px;
+    height: auto;
+    padding: 40px 40px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 24px;
+    border-radius: 16px;
+    
+}
+.language-card3{
+    width: 364px;
+    height: auto;
+    padding: 40px 40px;
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    
+}
+.lanuage-header-card{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 24px;
+    
+}
+.lanuage-description-card{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: rgba(13, 19, 33, 0.5);
+}
+
+.main-next-target{
+    width: 1215px;
+    height: auto;
+    margin: 0 auto;
+}
+.framwork-card1{
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-around;
+    
+    border: 1px solid rgba(13, 19, 33, 0.30);
+    border-radius: 16px;
+}
+.framwork-card2{
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-around;
+    
+    border: 0.2px solid rgba(13, 19, 33, 0.5);
+    border-radius: 16px;
+}
+.framwork-card3{
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-around;
+    border: 0.5px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.target-others{
+    width: 80%;
+}
+.language-title{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: start;
+}
+.language-description{
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 48px;
+    margin-top: 8px;
+    color: rgba(13, 19, 33, 0.5);
+}
+.language-learmore{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+    color: #0D1321;
+    
+}
+/* My Current Target Section End */
